@@ -1,0 +1,19 @@
+<hr>
+<h1>This is the gradebook - Kenn</h1>
+
+<img src={{imageUrl}}/>
+
+<hr>
+<input type="text" [(ngModel)]="studName" />
+<p><input type="number" [(ngModel)]="prelim" class="form-control" placeholder="Prelim"></p>
+<p><input type="number" [(ngModel)]="midterm" class="form-control" placeholder="Midterm"></p>
+<p><input type="number" [(ngModel)]="final" class="form-control" placeholder="Final"></p>
+
+<p>Hello, {{studName}}!</p>
+<p>Prelim grade: {{prelim}}</p>
+<p>Midterm grade: {{midterm}}</p>
+<p>Final grade: {{final}}</p>
+
+<p>Average: {{(prelim+midterm+final)/3}}</p>
+
+<!--Kenn Chester Ducut WD-302-->
