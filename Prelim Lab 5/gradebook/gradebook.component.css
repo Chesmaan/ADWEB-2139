@@ -1,0 +1,17 @@
+#body {
+    background-color: #70798C;
+    text-align: center;
+}
+h1 {
+    text-align: center;
+    font-family: Verdana;
+    color: #252323;
+    font-weight: bold;
+}
+hr {
+    color: #252323;
+}
+p {
+    color: #DAD2BC;
+    font-family: sans-serif;
+}
