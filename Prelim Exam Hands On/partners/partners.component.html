@@ -1,0 +1,22 @@
+<h3>Below are our Corporate Partners</h3>
+
+<table class="table table-sm">
+    <thead>
+      <tr>
+        <th scope="col">Company</th>
+        <th scope="col">Trademark</th>
+        <th scope="col">Sponsorship</th>
+        <th scope="col">Go to Website</th>
+      </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let prtner of partners">
+          <td scope="row">{{prtner.company}}</td>
+          <td><img src="{{prtner.trademark}}" alt="france" style="width: 250px;"></td>
+          <td>{{prtner.sponsorship}}</td>
+          <td>{{prtner.website}}</td>
+        </tr>
+        
+      </tbody>
+    </table>
+    
