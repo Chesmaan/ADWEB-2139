@@ -1,0 +1,22 @@
+<h1 style="text-align: center;">Employee List 3</h1>
+
+<table class="table table-bordered">
+    <thead class="thead-dark">
+      <tr>
+        <th scope="col">ID</th>
+        <th scope="col">First Name</th>
+        <th scope="col">Last Name</th>
+        <th scope="col">Email</th>
+      </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let employee of Employees3;">
+            <td>{{employee.id}}</td>
+            <td>{{employee.firstname}}</td>
+            <td>{{employee.lastname}}</td>
+            <td>{{employee.email}}</td>
+        </tr>
+    </tbody>
+  </table>
+
+  <!--Kenn Chester Ducut WD-302-->
